@@ -16,7 +16,7 @@ export default function Header() {
     console.log(styles);
 
     return (
-        <div className="navbar text-neutral-content bg-base-content">
+        <div className="navbar text-neutral-content bg-info-content">
             <div className="flex-1 ml-3 text-gray-50">
                 <ul className='flex flex-row justify-between gap-6'>
                     <li><a href="">Logo</a></li>
