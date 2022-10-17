@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Footer from '../components/Footer';
 import dynamic from 'next/dynamic';
 import React from "react";
-import { FaTwitter, FaGithub, FaYoutube } from "react-icons/fa";
+import { FaChartBar, FaEthereum, FaTwitter, FaGithub, FaYoutube, FaMixer, FaHandPointUp, FaHandHoldingHeart, FaHeadSideVirus } from "react-icons/fa";
 
 const Header = dynamic(() => import('../components/Header'), {
   ssr: false,
@@ -19,43 +19,107 @@ export default function Home() {
       <Header />
 
 
-      <div class="bg-white dark:bg-gray-800 overflow-hidden relative lg:flex lg:items-center h-screen p-10">
-        <div class="w-full py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
+      <div class="bg-white dark:bg-gray-800 overflow-hidden relative lg:flex lg:items-center h-screen">
+        <div class="w-full py-12 ml-10 -mt-20 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
           <h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
             <span class="block">
-              Mother hearth host your travel
+              NFTs mint website
             </span>
           </h2>
           <p class="text-md mt-4 text-gray-400">
-            The state of Utah in the united states is home to lots of beautiful National parks.
+            We are next-generation Web3 creators producing world-class NFT and metaverse experiences through the lens of dynamic storytelling, gamification, creativity, and technology.
           </p>
           <div class="lg:mt-0 lg:flex-shrink-0">
             <div class="mt-12 inline-flex">
-              <button type="button" className="btn btn-primary ml-3 normal-case p-3">
-                Free Mint
+              <button className="btn btn-wide btn-info gap-2 text-gray-50">
+                MINT
+                <FaEthereum size="1rem" />
+              </button>
+              <button className="btn btn-wide btn-error gap-2 ml-3 text-gray-50">
+                STAT
+                <FaChartBar size="1rem" />
               </button>
             </div>
           </div>
         </div>
 
-        <div class="grid grid-rows-3 grid-flow-col gap-8">
-          <div><img src="/images/4-1.jpg" className="mx-auto object-cover rounded-xl w-30"></img></div>
-          <div><img src="/images/4-1.jpg" className="mx-auto object-cover rounded-xl w-30"></img></div>
-          <div><img src="/images/4-1.jpg" className="mx-auto object-cover rounded-xl w-30"></img></div>
-          <div><img src="/images/4-1.jpg" className="mx-auto object-cover rounded-xl w-30"></img></div>
-          <div><img src="/images/4-1.jpg" className="mx-auto object-cover rounded-xl w-30"></img></div>
-          <div><img src="/images/4-1.jpg" className="mx-auto object-cover rounded-xl w-30"></img></div>
-          <div><img src="/images/4-1.jpg" className="mx-auto object-cover rounded-xl w-30"></img></div>
-          <div><img src="/images/4-1.jpg" className="mx-auto object-cover rounded-xl w-30"></img></div>
-          <div><img src="/images/4-1.jpg" className="mx-auto object-cover rounded-xl w-30"></img></div>
-          <div><img src="/images/4-1.jpg" className="mx-auto object-cover rounded-xl w-30"></img></div>
-          <div><img src="/images/4-1.jpg" className="mx-auto object-cover rounded-xl w-30"></img></div>
-          <div><img src="/images/4-1.jpg" className="mx-auto object-cover rounded-xl w-30"></img></div>
+        <div class="grid grid-rows-3 grid-flow-col gap-8 mr-32 -mt-20">
+          <div><img src="/nft/1.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/2.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/3.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/4.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/5.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/6.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/7.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/8.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/9.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/10.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/11.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/12.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/13.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/14.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/15.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/10.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/11.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/12.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/13.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/14.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/15.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/11.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/12.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/13.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
         </div>
       </div>
 
+      <p class="text-center text-3xl font-bold text-gray-800 dark:text-white bg-white" id="information">
+        Mint information
+      </p>
 
-      <div class="p-8 bg-white dark:bg-gray-800  shadow">
+      <p class="text-center pb-12 text-xl font-normal text-gray-500 dark:text-gray-200 bg-white">
+        Meat the best team in wolrd
+      </p>
+
+      <div className='bg-white w-full p-auto flex flex-row justify-around'>
+        <div className="stats shadow">
+          <div className="stat">
+            <div className="stat-figure text-primary">
+              <FaMixer size="2rem" />
+            </div>
+            <div className="stat-title">Total Supply</div>
+            <div className="stat-value text-info">10K</div>
+          </div>
+
+          <div className="stat">
+            <div className="stat-figure text-secondary">
+              <FaHandPointUp size="2rem" />
+            </div>
+            <div className="stat-title">Total Mints</div>
+            <div className="stat-value text-error">1,200</div>
+          </div>
+
+          <div className="stat">
+            <div className="stat-figure text-secondary">
+              <FaHandHoldingHeart size="2rem" />
+            </div>
+            <div className="stat-title">Total Address</div>
+            <div className="stat-value text-info">1,000</div>
+          </div>
+
+          <div className="stat">
+            <div className="stat-figure text-secondary">
+              <FaHeadSideVirus size="2rem" />
+            </div>
+            <div className="stat-title">Total Number</div>
+            <div className="stat-value text-error">2,000</div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="p-8 bg-white dark:bg-gray-800  shadow pt-32 ">
         <p class="text-center text-3xl font-bold text-gray-800 dark:text-white">
           Professional team
         </p>
@@ -74,7 +138,7 @@ export default function Home() {
                 Patrick Sebastien
               </p>
               <p class="text-xl text-gray-500 dark:text-gray-200 font-light">
-                Developpeur
+                Fonder
               </p>
               <p class="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
                 Patrick Sébastien, born November 14, 1953 in Brive-la-Gaillarde, is an imitator.
@@ -87,7 +151,7 @@ export default function Home() {
           <div className="">
             <div class="text-center mb-4 opacity-90">
               <a href="#" class="block relative">
-                <img alt="profil" src="/images/4-1.jpg" class="mx-auto object-cover rounded-full h-40 w-40 " />
+                <img alt="profil" src="/nft/1.png" class="mx-auto object-cover rounded-full h-40 w-40 " />
               </a>
             </div>
             <div class="text-center">
@@ -95,7 +159,7 @@ export default function Home() {
                 Jean Castux
               </p>
               <p class="text-xl text-gray-500 dark:text-gray-200 font-light">
-                Founder
+                Developpeur
               </p>
               <p class="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
                 Jean Castux is an imitator, humorist, actor, born November 14, 1953 in Pontivy.
@@ -110,7 +174,7 @@ export default function Home() {
           <div className="">
             <div class="text-center mb-4 opacity-90">
               <a href="#" class="block relative">
-                <img alt="profil" src="/images/4-1.jpg" class="mx-auto object-cover rounded-full h-40 w-40 " />
+                <img alt="profil" src="/nft/1.png" class="mx-auto object-cover rounded-full h-40 w-40 " />
               </a>
             </div>
             <div class="text-center">
@@ -133,7 +197,7 @@ export default function Home() {
       </div>
 
 
-      <div class="pt-10 p-8 bg-white dark:bg-gray-800  shadow">
+      <div class="pt-32 p-8 bg-white dark:bg-gray-800  shadow">
         <p class="text-center text-3xl font-bold text-gray-800 dark:text-white">
           Join Our Community
         </p>

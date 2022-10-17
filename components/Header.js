@@ -16,7 +16,7 @@ export default function Header() {
     console.log(styles);
 
     return (
-        <div className="navbar text-neutral-content bg-info-content">
+        <div className="navbar text-neutral-content bg-primary-content">
             <div className="flex-1 ml-3 text-gray-50">
                 <ul className='flex flex-row justify-between gap-6'>
                     <li><a href="">Logo</a></li>
@@ -30,9 +30,9 @@ export default function Header() {
 
             <div className="navbar-end">
                 {isConnected ?
-                    (<><button className="btn btn-sm btn-primary ml-3 normal-case" onClick={openAccountModal}>Profile</button><button className="btn btn-sm btn-primary ml-3 normal-case " onClick={openChainModal}>Chain</button></>)
+                    (<><button className="btn btn-sm btn-info ml-3 normal-case" onClick={openAccountModal}>Profile</button><button className="btn btn-sm btn-error ml-3 normal-case " onClick={openChainModal}>Chain</button></>)
                     :
-                    (<button className="btn btn-sm btn-primary ml-3 normal-case" onClick={openConnectModal}>connect wallet</button>)
+                    (<button className="btn btn-sm btn-secondary ml-3 normal-case" onClick={openConnectModal}>connect wallet</button>)
                 }
             </div>
         </div >
