@@ -29,30 +29,30 @@ export default function Home() {
         <Minter />
 
         <div class="grid grid-rows-3 grid-flow-col gap-8 mr-32 -mt-20">
-          <div><image src="/nft/0.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/1.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/2.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/3.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/4.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/5.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/6.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/7.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/8.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/9.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/10.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/11.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/12.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/13.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/14.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/15.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/16.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/17.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/18.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/19.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/20.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/21.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/22.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
-          <div><image src="/nft/23.jpg" className="mx-auto object-cover rounded-xl w-44"></image></div>
+          <div><Image src="/nft/0.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/1.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/2.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/3.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/4.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/5.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/6.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/7.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/8.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/9.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/10.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/11.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/12.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/13.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/14.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/15.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/16.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/17.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/18.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/19.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/20.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/21.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/22.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
+          <div><Image src="/nft/23.jpg" className="mx-auto object-cover rounded-xl w-44" width={500} height={500}></Image></div>
         </div>
       </div>
 
@@ -113,7 +113,7 @@ export default function Home() {
           <div className="">
             <div class="text-center mb-4 opacity-90">
               <a href="#" class="block relative">
-                <image alt="profil" src="/images/1.jpg" class="mx-auto object-cover rounded-full h-40 w-40 " />
+                <Image alt="profil" src="/images/1.jpg" class="mx-auto object-cover rounded-full h-40 w-40 " width={200} height={200} />
               </a>
             </div>
             <div class="text-center">
@@ -134,7 +134,7 @@ export default function Home() {
           <div className="">
             <div class="text-center mb-4 opacity-90">
               <a href="#" class="block relative">
-                <image alt="profil" src="/images/3-1.jpg" class="mx-auto object-cover rounded-full h-40 w-40 " />
+                <Image alt="profil" src="/images/3-1.jpg" class="mx-auto object-cover rounded-full h-40 w-40 " width={200} height={200} />
               </a>
             </div>
             <div class="text-center">
@@ -157,7 +157,7 @@ export default function Home() {
           <div className="">
             <div class="text-center mb-4 opacity-90">
               <a href="#" class="block relative">
-                <image alt="profil" src="/images/4-1.jpg" class="mx-auto object-cover rounded-full h-40 w-40 " />
+                <Image alt="profil" src="/images/4-1.jpg" class="mx-auto object-cover rounded-full h-40 w-40 " width={200} height={200} />
               </a>
             </div>
             <div class="text-center">
