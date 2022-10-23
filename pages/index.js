@@ -2,13 +2,18 @@ import Head from 'next/head'
 import Footer from '../components/Footer';
 import dynamic from 'next/dynamic';
 import React from "react";
-import { FaChartBar, FaEthereum, FaTwitter, FaGithub, FaYoutube, FaMixer, FaHandPointUp, FaHandHoldingHeart, FaHeadSideVirus } from "react-icons/fa";
+import { FaEthereum, FaTwitter, FaGithub, FaYoutube, FaMixer, FaHandPointUp, FaHandHoldingHeart } from "react-icons/fa";
 
 const Header = dynamic(() => import('../components/Header'), {
   ssr: false,
 })
 
+const Minter = dynamic(() => import('../components/Minter'), {
+  ssr: false,
+})
+
 export default function Home() {
+
   return (
     <div className="min-h-screen bg-base-200" data-theme="bumblebee">
       <Head>
@@ -18,56 +23,35 @@ export default function Home() {
       </Head>
       <Header />
 
-
       <div class="bg-white dark:bg-gray-800 overflow-hidden relative lg:flex lg:items-center h-screen">
-        <div class="w-full py-12 ml-10 -mt-20 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
-          <h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
-            <span class="block">
-              NFTs mint website
-            </span>
-          </h2>
-          <p class="text-md mt-4 text-gray-400">
-            We are next-generation Web3 creators producing world-class NFT and metaverse experiences through the lens of dynamic storytelling, gamification, creativity, and technology.
-          </p>
-          <div class="lg:mt-0 lg:flex-shrink-0">
-            <div class="mt-12 inline-flex">
-              <button className="btn btn-wide btn-info gap-2 text-gray-50">
-                MINT
-                <FaEthereum size="1rem" />
-              </button>
-              <button className="btn btn-wide btn-error gap-2 ml-3 text-gray-50">
-                STAT
-                <FaChartBar size="1rem" />
-              </button>
-            </div>
-          </div>
-        </div>
+
+        <Minter />
 
         <div class="grid grid-rows-3 grid-flow-col gap-8 mr-32 -mt-20">
-          <div><img src="/nft/1.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/2.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/3.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/4.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/5.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/6.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/7.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/8.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/9.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/10.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/11.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/12.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/13.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/14.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/15.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/10.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/11.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/12.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/13.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/14.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/15.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/11.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/12.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
-          <div><img src="/nft/13.png" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/0.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/1.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/2.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/3.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/4.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/5.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/6.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/7.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/8.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/9.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/10.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/11.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/12.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/13.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/14.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/15.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/16.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/17.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/18.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/19.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/20.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/21.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/22.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
+          <div><img src="/nft/23.jpg" className="mx-auto object-cover rounded-xl w-44"></img></div>
         </div>
       </div>
 
@@ -76,41 +60,41 @@ export default function Home() {
       </p>
 
       <p class="text-center pb-12 text-xl font-normal text-gray-500 dark:text-gray-200 bg-white">
-        Meat the best team in wolrd
+        Let's get it started
       </p>
 
       <div className='bg-white w-full p-auto flex flex-row justify-around'>
         <div className="stats shadow">
           <div className="stat">
-            <div className="stat-figure text-primary">
+            <div className="stat-figure text-info">
               <FaMixer size="2rem" />
             </div>
             <div className="stat-title">Total Supply</div>
-            <div className="stat-value text-info">10K</div>
+            <div className="stat-value text-info">1000</div>
           </div>
 
           <div className="stat">
-            <div className="stat-figure text-secondary">
+            <div className="stat-figure text-error">
               <FaHandPointUp size="2rem" />
             </div>
             <div className="stat-title">Total Mints</div>
-            <div className="stat-value text-error">1,200</div>
+            <div className="stat-value text-error">888</div>
           </div>
 
           <div className="stat">
-            <div className="stat-figure text-secondary">
+            <div className="stat-figure text-info">
               <FaHandHoldingHeart size="2rem" />
             </div>
             <div className="stat-title">Total Address</div>
-            <div className="stat-value text-info">1,000</div>
+            <div className="stat-value text-info">787</div>
           </div>
 
           <div className="stat">
-            <div className="stat-figure text-secondary">
-              <FaHeadSideVirus size="2rem" />
+            <div className="stat-figure text-error">
+              <FaEthereum size="2rem" />
             </div>
-            <div className="stat-title">Total Number</div>
-            <div className="stat-value text-error">2,000</div>
+            <div className="stat-title">Total Volume</div>
+            <div className="stat-value text-error">10E</div>
           </div>
 
         </div>
@@ -134,10 +118,10 @@ export default function Home() {
               </a>
             </div>
             <div class="text-center">
-              <p class="text-2xl text-gray-800 dark:text-white">
+              <p class="text-2xl text-gray-800 dark:text-white text-info">
                 Patrick Sebastien
               </p>
-              <p class="text-xl text-gray-500 dark:text-gray-200 font-light">
+              <p class="text-xl text-gray-500 dark:text-gray-200 font-light text-error">
                 Fonder
               </p>
               <p class="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
@@ -151,14 +135,14 @@ export default function Home() {
           <div className="">
             <div class="text-center mb-4 opacity-90">
               <a href="#" class="block relative">
-                <img alt="profil" src="/nft/1.png" class="mx-auto object-cover rounded-full h-40 w-40 " />
+                <img alt="profil" src="/images/3-1.jpg" class="mx-auto object-cover rounded-full h-40 w-40 " />
               </a>
             </div>
             <div class="text-center">
-              <p class="text-2xl text-gray-800 dark:text-white">
+              <p class="text-2xl text-gray-800 dark:text-white text-info">
                 Jean Castux
               </p>
-              <p class="text-xl text-gray-500 dark:text-gray-200 font-light">
+              <p class="text-xl text-gray-500 dark:text-gray-200 font-light text-error">
                 Developpeur
               </p>
               <p class="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
@@ -174,14 +158,14 @@ export default function Home() {
           <div className="">
             <div class="text-center mb-4 opacity-90">
               <a href="#" class="block relative">
-                <img alt="profil" src="/nft/1.png" class="mx-auto object-cover rounded-full h-40 w-40 " />
+                <img alt="profil" src="/images/4-1.jpg" class="mx-auto object-cover rounded-full h-40 w-40 " />
               </a>
             </div>
             <div class="text-center">
-              <p class="text-2xl text-gray-800 dark:text-white">
+              <p class="text-2xl text-gray-800 dark:text-white text-info">
                 Jean Castux
               </p>
-              <p class="text-xl text-gray-500 dark:text-gray-200 font-light">
+              <p class="text-xl text-gray-500 dark:text-gray-200 font-light text-error">
                 Market
               </p>
               <p class="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
@@ -197,26 +181,26 @@ export default function Home() {
       </div>
 
 
-      <div class="pt-32 p-8 bg-white dark:bg-gray-800  shadow">
-        <p class="text-center text-3xl font-bold text-gray-800 dark:text-white">
+      <div className="pt-32 p-8 bg-white dark:bg-gray-800 shadow pb-40">
+        <p className="text-center text-3xl font-bold text-gray-800 dark:text-white">
           Join Our Community
         </p>
-        <div class="flex flex-col justify-center md:flex-row evenly gap-x-10">
-          <div class="p-4 mt-20">
-            <div class="text-center mb-4 opacity-90">
+        <div className="flex flex-col justify-center md:flex-row evenly gap-x-10">
+          <div className="p-4 mt-20">
+            <div className="text-center mb-4 opacity-90">
               <FaTwitter size="7rem" /> TWITTER
             </div>
 
           </div>
-          <div class="p-4 mt-20">
-            <div class="text-center mb-4 opacity-90">
+          <div className="p-4 mt-20">
+            <div className="text-center mb-4 opacity-90">
               <FaGithub size="7rem" /> GITHUB
             </div>
           </div>
 
 
-          <div class="p-4 mt-20">
-            <div class="text-center mb-4 opacity-90">
+          <div className="p-4 mt-20">
+            <div className="text-center mb-4 opacity-90">
               <FaYoutube size="7rem" />YOUTUBE
             </div>
           </div>

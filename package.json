@@ -12,7 +12,7 @@
     "@rainbow-me/rainbowkit": "^0.6.1",
     "chart.js": "^3.9.1",
     "daisyui": "^2.31.0",
-    "ethers": "^5.7.1",
+    "ethers": "^5.7.2",
     "faker": "^5.5.3",
     "next": "12.3.1",
     "react": "18.2.0",
@@ -20,7 +20,8 @@
     "react-countup": "^6.3.1",
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0",
-    "wagmi": "^0.6.7"
+    "wagmi": "^0.6.7",
+    "web3": "^1.8.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
